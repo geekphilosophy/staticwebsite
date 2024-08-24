@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to waste time
+        Changed at 7:36 am.
       </p>
     </>
   )
