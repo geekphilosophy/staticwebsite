@@ -13,8 +13,7 @@ function App() {
         <section className="mb-6">
           <h2 className="text-2xl font-semibold mb-4 pb-2 border-b border-gray-200">About Me</h2>
           <p className="text-gray-700">
-            I'm a passionate developer with 5 years of experience in building web applications.
-            I love working with React, Node.js, and exploring new technologies.
+            Tech (Cloud computing, distributed systems, rust), Philosophy, Reading, Learning, Video Games
           </p>
         </section>
         <section className="flex justify-center space-x-4">
