@@ -13,8 +13,9 @@ function App() {
         <section className="mb-6">
           <h2 className="text-2xl font-semibold mb-4 pb-2 border-b border-gray-200">About Me</h2>
           <p className="text-gray-700">
-            Tech (Cloud computing, distributed systems, rust), Philosophy, Reading, Learning, Video Games
+            Tech (Cloud, distributed systems, rust), Philosophy, Reading, Learning, Video Games
           </p>
+          <p className="text-gray-700">Creating this page to kick the tires of front-end dev.</p>
         </section>
         <section className="flex justify-center space-x-4">
           <a href="https://www.linkedin.com/in/chrisesimmons" target="_blank" rel="noopener noreferrer"
@@ -31,13 +32,16 @@ function App() {
           </a>
         </section>
       </main>
-      <nav className="mt-6">
-        <Link to="/dev" className="text-blue-600 hover:text-blue-800">
-          Development
-        </Link>
-      </nav>
       <footer className="mt-8 text-center text-gray-600">
-        <p>&copy; 2024 John Doe. All rights reserved.</p>
+        <nav className="mt-6 flex space-x-4">
+          <Link to="/" className="text-blue-600 hover:text-blue-800">
+            About
+          </Link>
+
+          <Link to="/dev" className="text-blue-600 hover:text-blue-800">
+            Development
+          </Link>
+        </nav>
       </footer>
     </div>
   )
