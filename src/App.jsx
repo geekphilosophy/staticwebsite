@@ -22,9 +22,9 @@ function App() {
             className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-300">
             <i className="fab fa-linkedin mr-2"></i> LinkedIn
           </a>
-          <a href="https://twitter.com/geekphilosophy" target="_blank" rel="noopener noreferrer"
+          <a href="https://bsky.app/profile/chrissimmons.ca"" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center px-4 py-2 bg-blue-400 text-white rounded hover:bg-blue-500 transition duration-300">
-            <i className="fab fa-twitter mr-2"></i> Twitter
+            <i className="fab fa-twitter mr-2"></i> BlueSky
           </a>
           <a href="https://github.com/geekphilosophy" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-900 transition duration-300">
