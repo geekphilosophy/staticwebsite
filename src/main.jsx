@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
 import App from './App.jsx'
-import Dev from './Dev.jsx'
-import Recipes from './Recipes.jsx'
+import NotFound from './NotFound.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,8 +10,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/dev" element={<Dev />} />
-        <Route path="/recipes" element={<Recipes />} />
+        {/* Redirect removed routes to home */}
+        <Route path="/recipes" element={<Navigate to="/" replace />} />
+        <Route path="/dev" element={<Navigate to="/" replace />} />
+        {/* Catch all route for 404 */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   </React.StrictMode>,
