@@ -55,4 +55,9 @@
   - Revise headline to reflect technology leadership role
   - Update bio text to highlight executive experience
   - Mention leadership of large teams and P&L responsibility
-  - _Requirements: 1.2, 1.3_
+  - _Requirements: 1.2, 1.3_-
+ [ ] 11. Fix Build Configuration
+  - Update Vite config to use default minifier
+  - Remove dependency on terser
+  - Ensure build process works correctly
+  - _Requirements: 4.1, 4.3_
